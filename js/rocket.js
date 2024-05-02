@@ -10,9 +10,9 @@ var changeState= function(state){
         if (countdownnumber <=0){
             changeState(3);
         }
-    }, 200);
+    }
 
-}
+};
 else if (state == 3) {
     var success = setTimeout (function(){
         var randomNumber = math.round(math.random()*10);
@@ -23,4 +23,6 @@ else if (state == 3) {
             changeState(5); // oh no
         }
         }, 2000);
-    }
+   
+   
+    };
